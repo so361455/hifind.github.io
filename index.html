@@ -1,0 +1,575 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #6d6d6d; -webkit-text-stroke: #6d6d6d}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #0000ff; -webkit-text-stroke: #0000ff}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #6b0001; -webkit-text-stroke: #6b0001}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #fb0007; -webkit-text-stroke: #fb0007}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; -webkit-text-stroke: #000000}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #0f7001; -webkit-text-stroke: #0f7001}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; -webkit-text-stroke: #000000; min-height: 16.0px}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #900112; -webkit-text-stroke: #900112}
+    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #900112; -webkit-text-stroke: #900112; min-height: 16.0px}
+    span.s1 {font-kerning: none; background-color: #fffffe}
+    span.s2 {font-kerning: none; color: #fb0007; background-color: #fffffe; -webkit-text-stroke: 0px #fb0007}
+    span.s3 {font-kerning: none; color: #2a2a2a; background-color: #fffffe; -webkit-text-stroke: 0px #2a2a2a}
+    span.s4 {font-kerning: none; color: #6b0001; background-color: #fffffe; -webkit-text-stroke: 0px #6b0001}
+    span.s5 {font-kerning: none; color: #000000; background-color: #fffffe; -webkit-text-stroke: 0px #000000}
+    span.s6 {font-kerning: none; color: #0000ff; background-color: #fffffe; -webkit-text-stroke: 0px #0000ff}
+    span.s7 {font-kerning: none; color: #137646; background-color: #fffffe; -webkit-text-stroke: 0px #137646}
+    span.s8 {font-kerning: none; color: #900112; background-color: #fffffe; -webkit-text-stroke: 0px #900112}
+    span.s9 {font-kerning: none; color: #093c94; background-color: #fffffe; -webkit-text-stroke: 0px #093c94}
+    span.s10 {font-kerning: none}
+    span.s11 {font-kerning: none; color: #0f7001; background-color: #fffffe; -webkit-text-stroke: 0px #0f7001}
+    span.s12 {font-kerning: none; color: #0e6e6d; background-color: #fffffe; -webkit-text-stroke: 0px #0e6e6d}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE</span><span class="s2"> html</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;</span><span class="s4">html</span><span class="s5"> </span><span class="s2">lang</span><span class="s3">=</span><span class="s1">"zh-TW"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"scroll-smooth"</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s3">&lt;</span><span class="s1">head</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">meta</span><span class="s5"> </span><span class="s1">charset</span><span class="s3">=</span><span class="s6">"UTF-8"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">meta</span><span class="s5"> </span><span class="s2">name</span><span class="s3">=</span><span class="s1">"viewport"</span><span class="s5"> </span><span class="s2">content</span><span class="s3">=</span><span class="s1">"width=device-width, initial-scale=1.0"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">title</span><span class="s3">&gt;</span><span class="s1">Daily Pick | 質感好物與零食推薦</span><span class="s3">&lt;/</span><span class="s4">title</span><span class="s3">&gt;</span></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Tailwind CSS CDN --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">script</span><span class="s5"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://cdn.tailwindcss.com"</span><span class="s3">&gt;&lt;/</span><span class="s4">script</span><span class="s3">&gt;</span></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Google Font (Noto Sans TC &amp; Inter) --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">link</span><span class="s5"> </span><span class="s2">rel</span><span class="s3">=</span><span class="s1">"preconnect"</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"https://fonts.googleapis.com"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">link</span><span class="s5"> </span><span class="s2">rel</span><span class="s3">=</span><span class="s1">"preconnect"</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"https://fonts.gstatic.com"</span><span class="s5"> </span><span class="s2">crossorigin</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">link</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Noto+Sans+TC:wght@300;400;500;700&amp;display=swap"</span><span class="s5"> </span><span class="s2">rel</span><span class="s3">=</span><span class="s1">"stylesheet"</span><span class="s3">&gt;</span></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- FontAwesome Icons --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">link</span><span class="s5"> </span><span class="s2">rel</span><span class="s3">=</span><span class="s1">"stylesheet"</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
+<p class="p3"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s1">script</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>tailwind.config = {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>theme: {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>extend: {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>colors: {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>warm: {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s7">50</span><span class="s1">: </span><span class="s8">'#FDFBF7'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s7">100</span><span class="s1">: </span><span class="s8">'#F7F3E9'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s7">200</span><span class="s1">: </span><span class="s8">'#EBE3D5'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s7">300</span><span class="s1">: </span><span class="s8">'#D5C7B0'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s7">500</span><span class="s1">: </span><span class="s8">'#B09B7C'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s7">600</span><span class="s1">: </span><span class="s8">'#947D5C'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s7">700</span><span class="s1">: </span><span class="s8">'#736043'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s7">800</span><span class="s1">: </span><span class="s8">'#52432C'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>},</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>amber: {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s7">400</span><span class="s1">: </span><span class="s8">'#F59E0B'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>},</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>fontFamily: {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>sans: [</span><span class="s8">'Inter'</span><span class="s1">, </span><span class="s8">'Noto Sans TC'</span><span class="s1">, </span><span class="s8">'sans-serif'</span><span class="s1">],</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p3"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">script</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s1">style</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">body</span><span class="s1"> {</span></p>
+<p class="p4"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">background-color:</span><span class="s5"> </span><span class="s9">#FDFBF7</span><span class="s5">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">color:</span><span class="s1"> </span><span class="s9">#4A4036</span><span class="s1">;</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s2">font-family:</span><span class="s5"> </span><span class="s1">'Inter'</span><span class="s5">, </span><span class="s1">'Noto Sans TC'</span><span class="s5">, </span><span class="s9">sans-serif</span><span class="s5">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p3"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">.hide-scrollbar::-webkit-scrollbar</span><span class="s5"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">display:</span><span class="s1"> </span><span class="s9">none</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p3"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">.hide-scrollbar</span><span class="s5"> {</span></p>
+<p class="p4"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">-ms-overflow-style:</span><span class="s5"> </span><span class="s9">none</span><span class="s5">;</span></p>
+<p class="p4"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">scrollbar-width:</span><span class="s5"> </span><span class="s9">none</span><span class="s5">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p3"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">style</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s3">&lt;/</span><span class="s1">head</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;</span><span class="s4">body</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"antialiased min-h-screen flex flex-col justify-between"</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- 頂部導覽列 Header --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">header</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"sticky top-0 z-50 bg-[#FDFBF7]/90 backdrop-blur-md border-b border-warm-200 shadow-sm transition-all"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between"</span><span class="s3">&gt;</span></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;!-- Logo --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">a</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"#"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex items-center gap-2 group"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-10 h-10 rounded-full bg-warm-500 text-white flex items-center justify-center font-bold text-xl shadow-md group-hover:bg-warm-600 transition-colors"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">i</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"fa-solid me-0.5 fa-cookie-bite"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-xl font-bold tracking-tight text-warm-800"</span><span class="s3">&gt;</span><span class="s5">Daily</span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-warm-500"</span><span class="s3">&gt;</span><span class="s5">Pick</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"hidden sm:inline-block text-xs bg-warm-100 text-warm-700 px-2 py-0.5 rounded-full ml-2 font-medium"</span><span class="s3">&gt;</span><span class="s5">質感選物指南</span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">a</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;!-- 桌機選單 --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">nav</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"hidden md:flex items-center space-x-8 text-sm font-medium"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">a</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"#snacks"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-warm-700 hover:text-warm-500 transition-colors flex items-center gap-1.5"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">i</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"fa-solid fa-store text-xs"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt;</span><span class="s1"> 零食推薦區</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">a</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">a</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"#reviews"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-warm-700 hover:text-warm-500 transition-colors flex items-center gap-1.5"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">i</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"fa-solid fa-box-open text-xs"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt;</span><span class="s5"> 好物開箱區</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">a</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">a</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"#about"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-warm-700 hover:text-warm-500 transition-colors flex items-center gap-1.5"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">i</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"fa-regular fa-heart text-xs"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt;</span><span class="s5"> 關於本站</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">a</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">nav</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;!-- 手機選單按鈕 --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">button</span><span class="s5"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"mobile-menu-btn"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"md:hidden text-warm-700 hover:text-warm-900 focus:outline-none p-2"</span><span class="s5"> </span><span class="s2">aria-label</span><span class="s3">=</span><span class="s1">"Toggle menu"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">i</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"fa-solid fa-bars text-xl"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">button</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!-- 手機下拉選單 --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"mobile-menu"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"hidden md:hidden bg-warm-50 border-b border-warm-200 px-4 pt-2 pb-4 space-y-3"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">a</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"#snacks"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-warm-700 hover:bg-warm-100"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">i</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"fa-solid fa-store me-2"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt;</span><span class="s5"> 零食推薦區</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">a</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">a</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"#reviews"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-warm-700 hover:bg-warm-100"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">i</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"fa-solid fa-box-open me-2"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt;</span><span class="s5"> 好物開箱區</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">a</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">a</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"#about"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-warm-700 hover:bg-warm-100"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">i</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"fa-regular fa-heart me-2"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt;</span><span class="s5"> 關於本站</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">a</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">header</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- 主視覺區 Hero Banner --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">section</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"relative bg-gradient-to-b from-warm-100/60 to-warm-50 py-12 md:py-20 border-b border-warm-200/50"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"inline-block px-3 py-1 bg-warm-200/80 text-warm-800 text-xs sm:text-sm font-medium rounded-full mb-4 shadow-sm"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>✨ 陪你打造更有儀式感的日常生活</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">h1</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-3xl sm:text-5xl font-bold text-warm-800 tracking-tight leading-tight mb-4"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>精選好吃零食 ‧ 質感生活開箱</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">h1</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">p</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"max-w-2xl mx-auto text-warm-600 text-sm sm:text-base leading-relaxed mb-8"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>嚴選平價美味與極致好物，為你整理出最實用的購物導覽。直接點擊連結即可輕鬆下單，打造理想的美好生活體驗！</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">p</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex justify-center gap-4"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">a</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"#snacks"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"px-6 py-3 bg-warm-600 hover:bg-warm-700 text-white font-medium rounded-xl shadow-md transition-all hover:shadow-lg flex items-center gap-2"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">i</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"fa-solid fa-cookie"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt;</span><span class="s1"> 逛逛零食榜</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">a</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">a</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"#reviews"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"px-6 py-3 bg-white border border-warm-300 hover:bg-warm-100 text-warm-700 font-medium rounded-xl shadow-sm transition-all flex items-center gap-2"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">i</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"fa-solid fa-cube"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt;</span><span class="s1"> 查看開箱心得</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">a</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">section</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- 主要內容區 --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">main</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-20"</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!-- 1. 零食推薦區 (Snacks Recommendation) --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s4">section</span><span class="s5"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"snacks"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"scroll-mt-24"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex items-center gap-2"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-2.5 h-6 bg-warm-500 rounded-full"</span><span class="s3">&gt;&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">h2</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-2xl sm:text-3xl font-bold text-warm-800"</span><span class="s3">&gt;</span><span class="s5">熱門零食推薦榜</span><span class="s3">&lt;/</span><span class="s4">h2</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">p</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-warm-600 text-sm mt-1"</span><span class="s3">&gt;</span><span class="s1">精選解饞辦公室嘴饞首選，美味不踩雷</span><span class="s3">&lt;/</span><span class="s4">p</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s11">&lt;!-- 搜尋與分類選單 --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex flex-col sm:flex-row gap-3"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">&lt;!-- 搜尋框 --&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"relative"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">input</span><span class="s5"> </span><span class="s2">type</span><span class="s3">=</span><span class="s1">"text"</span><span class="s5"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"snack-search"</span><span class="s5"> </span><span class="s2">placeholder</span><span class="s3">=</span><span class="s1">"搜尋零食名稱..."</span><span class="s5"><span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                               </span></span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-full sm:w-48 pl-9 pr-4 py-2 bg-white border border-warm-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-warm-500/50 shadow-sm"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">i</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"fa-solid fa-magnifying-glass absolute left-3 top-3 text-warm-400 text-xs"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">&lt;!-- 分類按鈕組 --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 hide-scrollbar"</span><span class="s5"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"snack-categories"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">button</span><span class="s5"> </span><span class="s2">data-cat</span><span class="s3">=</span><span class="s1">"all"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"cat-btn active px-3.5 py-2 text-xs sm:text-sm font-medium rounded-xl whitespace-nowrap bg-warm-600 text-white shadow-sm transition-all"</span><span class="s3">&gt;</span><span class="s5">全部</span><span class="s3">&lt;/</span><span class="s4">button</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">button</span><span class="s5"> </span><span class="s2">data-cat</span><span class="s3">=</span><span class="s1">"sweet"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"cat-btn px-3.5 py-2 text-xs sm:text-sm font-medium rounded-xl whitespace-nowrap bg-white text-warm-700 hover:bg-warm-100 border border-warm-200 transition-all"</span><span class="s3">&gt;</span><span class="s5">甜甜甜點</span><span class="s3">&lt;/</span><span class="s4">button</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">button</span><span class="s5"> </span><span class="s2">data-cat</span><span class="s3">=</span><span class="s1">"salty"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"cat-btn px-3.5 py-2 text-xs sm:text-sm font-medium rounded-xl whitespace-nowrap bg-white text-warm-700 hover:bg-warm-100 border border-warm-200 transition-all"</span><span class="s3">&gt;</span><span class="s5">鹹香解饞</span><span class="s3">&lt;/</span><span class="s4">button</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">button</span><span class="s5"> </span><span class="s2">data-cat</span><span class="s3">=</span><span class="s1">"healthy"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"cat-btn px-3.5 py-2 text-xs sm:text-sm font-medium rounded-xl whitespace-nowrap bg-white text-warm-700 hover:bg-warm-100 border border-warm-200 transition-all"</span><span class="s3">&gt;</span><span class="s5">低卡健康</span><span class="s3">&lt;/</span><span class="s4">button</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;!-- 零食列表 (網格/卡片直列) --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"snack-list"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"</span><span class="s3">&gt;</span></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s1">&lt;!-- 由 JavaScript 動態渲染零食卡片 --&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;!-- 無搜尋結果提示 --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"no-snack-msg"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"hidden text-center py-12 bg-white rounded-2xl border border-warm-200"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">i</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"fa-regular fa-face-frown text-4xl text-warm-400 mb-2"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">p</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-warm-600 font-medium"</span><span class="s3">&gt;</span><span class="s1">找不到符合條件的零食，換個關鍵字試試看吧！</span><span class="s3">&lt;/</span><span class="s4">p</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s4">section</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!-- 2. 日常好物開箱區 (Featured Product Reviews) --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s4">section</span><span class="s5"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"reviews"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"scroll-mt-24"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"mb-8"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"flex items-center gap-2"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">span</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-2.5 h-6 bg-warm-500 rounded-full"</span><span class="s3">&gt;&lt;/</span><span class="s4">span</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">h2</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-2xl sm:text-3xl font-bold text-warm-800"</span><span class="s3">&gt;</span><span class="s5">日常質感好物開箱</span><span class="s3">&lt;/</span><span class="s4">h2</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">p</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-warm-600 text-sm mt-1"</span><span class="s3">&gt;</span><span class="s1">親自使用實測！為你評測提升生活幸福感的小物</span><span class="s3">&lt;/</span><span class="s4">p</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;!-- 開箱文章卡片列表 (橫向大卡片) --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"review-list"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"space-y-8"</span><span class="s3">&gt;</span></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s1">&lt;!-- 由 JavaScript 動態渲染開箱卡片 --&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s4">section</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!-- 3. 關於分享區 (About Section) --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s4">section</span><span class="s5"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"about"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"bg-gradient-to-br from-warm-100 to-warm-200/50 rounded-3xl p-8 sm:p-12 shadow-sm border border-warm-200 scroll-mt-24"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"max-w-3xl mx-auto text-center space-y-4"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-16 h-16 rounded-full bg-white text-warm-600 flex items-center justify-center text-2xl mx-auto shadow-md"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">i</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"fa-solid fa-mug-hot"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">h3</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-2xl font-bold text-warm-800"</span><span class="s3">&gt;</span><span class="s1">關於 DailyPick 好物採集</span><span class="s3">&lt;/</span><span class="s4">h3</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">p</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-warm-700 text-sm sm:text-base leading-relaxed"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>我們熱愛探索生活中的小驚喜。無論是工作空檔的療癒美味零食，還是能大幅提升生活品質的質感家居小物。</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>本站所提供的購物連結皆經過嚴選整理，希望幫助大家省去踩雷的時間，開心選購心儀的好物！</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">p</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"pt-4 flex justify-center gap-4 text-warm-600"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">a</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"#"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-10 h-10 rounded-full bg-white hover:bg-warm-500 hover:text-white transition-colors flex items-center justify-center shadow-sm"</span><span class="s5"> </span><span class="s2">title</span><span class="s3">=</span><span class="s1">"Instagram"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">i</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"fa-brands fa-instagram text-lg"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s4">a</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">a</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"#"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-10 h-10 rounded-full bg-white hover:bg-warm-500 hover:text-white transition-colors flex items-center justify-center shadow-sm"</span><span class="s5"> </span><span class="s2">title</span><span class="s3">=</span><span class="s1">"Facebook"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">i</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"fa-brands fa-facebook-f text-lg"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s4">a</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s4">a</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"#"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-10 h-10 rounded-full bg-white hover:bg-warm-500 hover:text-white transition-colors flex items-center justify-center shadow-sm"</span><span class="s5"> </span><span class="s2">title</span><span class="s3">=</span><span class="s1">"Email Us"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s4">i</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"fa-regular fa-envelope text-lg"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s4">a</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s4">section</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s4">main</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- 頁尾 Footer --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">footer</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"bg-warm-800 text-warm-200 py-8 border-t border-warm-700 mt-12"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"max-w-6xl mx-auto px-4 text-center text-xs sm:text-sm space-y-2"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">p</span><span class="s3">&gt;</span><span class="s1">© 2026 DailyPick 選物開箱指南. All Rights Reserved.</span><span class="s3">&lt;/</span><span class="s4">p</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s4">p</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s6">"text-warm-400"</span><span class="s3">&gt;</span><span class="s1">聲明：點擊部分賣場連結購買商品可能為推廣分銷連結，不影響您的購買價格與權益。</span><span class="s3">&lt;/</span><span class="s4">p</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">footer</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- JavaScript Data &amp; Logic --&gt;</span></p>
+<p class="p3"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s1">script</span><span class="s3">&gt;</span></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">// --- 1. 範例零食資料 (Snacks Data) ---</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s6">const</span><span class="s1"> snacksData = [</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>id: </span><span class="s7">1</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>name: </span><span class="s8">"濃郁苦甜黑巧巧克酥"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>category: </span><span class="s8">"sweet"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>categoryName: </span><span class="s8">"甜甜甜點"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>rating: </span><span class="s7">4.9</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>price: </span><span class="s8">"NT$ 159"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>discount: </span><span class="s8">"85折熱銷"</span><span class="s1">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>image: </span><span class="s1">"https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&amp;fit=crop&amp;w=600&amp;q=80"</span><span class="s5">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>description: </span><span class="s1">"選用72%比利時巧克力製作，外層酥脆內餡濃郁爆漿，微苦不甜膩，搭配黑咖啡簡直是午後人間美味！"</span><span class="s5">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>shopUrl: </span><span class="s8">"https://shopee.tw"</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>id: </span><span class="s7">2</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>name: </span><span class="s8">"日式炙燒明太子洋洋洋洋洋芋片"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>category: </span><span class="s8">"salty"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>categoryName: </span><span class="s8">"鹹香解饞"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>rating: </span><span class="s7">4.8</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>price: </span><span class="s8">"NT$ 65"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>discount: </span><span class="s8">"買五送一"</span><span class="s1">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>image: </span><span class="s1">"https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&amp;fit=crop&amp;w=600&amp;q=80"</span><span class="s5">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>description: </span><span class="s1">"厚切波浪口感，佐以香濃海苔與鹹香炙燒明太子粉，鹹甜交織爽脆涮嘴，追劇不可或缺的邪惡零食！"</span><span class="s5">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>shopUrl: </span><span class="s8">"https://shopee.tw"</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>id: </span><span class="s7">3</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>name: </span><span class="s8">"低卡凍乾綜合莓果乾"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>category: </span><span class="s8">"healthy"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>categoryName: </span><span class="s8">"低卡健康"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>rating: </span><span class="s7">4.7</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>price: </span><span class="s8">"NT$ 220"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>discount: </span><span class="s8">"滿額免運"</span><span class="s1">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>image: </span><span class="s1">"https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&amp;fit=crop&amp;w=600&amp;q=80"</span><span class="s5">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>description: </span><span class="s1">"採用真空冷凍乾燥技術鎖住養分，包含藍莓、草莓與覆盆莓。無添加精緻糖，加進優格或牛奶超級絕配！"</span><span class="s5">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>shopUrl: </span><span class="s8">"https://shopee.tw"</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>id: </span><span class="s7">4</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>name: </span><span class="s8">"手作焦糖瑪奇朵堅果塔"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>category: </span><span class="s8">"sweet"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>categoryName: </span><span class="s8">"甜甜甜點"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>rating: </span><span class="s7">4.9</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>price: </span><span class="s8">"NT$ 280"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>discount: </span><span class="s8">"經典熱銷"</span><span class="s1">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>image: </span><span class="s1">"https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&amp;fit=crop&amp;w=600&amp;q=80"</span><span class="s5">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>description: </span><span class="s1">"滿滿的夏威夷豆與胡桃，裹上慢火熬煮的焦糖醬，派皮奶香四溢，口感豐富多層次，辦公室團購第一名！"</span><span class="s5">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>shopUrl: </span><span class="s8">"https://shopee.tw"</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>id: </span><span class="s7">5</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>name: </span><span class="s8">"泰式酸辣海苔脆片"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>category: </span><span class="s8">"salty"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>categoryName: </span><span class="s8">"鹹香解饞"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>rating: </span><span class="s7">4.6</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>price: </span><span class="s8">"NT$ 89"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>discount: </span><span class="s8">"限時特價"</span><span class="s1">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>image: </span><span class="s1">"https://images.unsplash.com/photo-1621996346565-e3d5d6273413?auto=format&amp;fit=crop&amp;w=600&amp;q=80"</span><span class="s5">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>description: </span><span class="s1">"獨特檸檬葉與香茅調味，搭配超薄脆的海苔，酸酸辣辣超過癮，卡路里低且非常開胃！"</span><span class="s5">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>shopUrl: </span><span class="s8">"https://shopee.tw"</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>id: </span><span class="s7">6</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>name: </span><span class="s8">"高蛋白烘烤黑豆堅果包"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>category: </span><span class="s8">"healthy"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>categoryName: </span><span class="s8">"低卡健康"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>rating: </span><span class="s7">4.5</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>price: </span><span class="s8">"NT$ 199"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>discount: </span><span class="s8">"健身推薦"</span><span class="s1">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>image: </span><span class="s1">"https://images.unsplash.com/photo-1536591375315-1b836814d2b9?auto=format&amp;fit=crop&amp;w=600&amp;q=80"</span><span class="s5">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>description: </span><span class="s1">"低溫慢火烘烤，無油炸更健康。富含植物性蛋白質與優質油脂，小包裝方便攜帶，下午茶解餓無負擔。"</span><span class="s5">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>shopUrl: </span><span class="s8">"https://shopee.tw"</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>];</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">// --- 2. 範例好物開箱資料 (Reviews Data) ---</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s6">const</span><span class="s1"> reviewsData = [</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>id: </span><span class="s7">101</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>title: </span><span class="s8">"極簡極致療癒！靜音極細霧化木紋香氛水氧機"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>tag: </span><span class="s8">"居家生活"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>date: </span><span class="s8">"2026-03-20"</span><span class="s1">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>image: </span><span class="s1">"https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&amp;fit=crop&amp;w=800&amp;q=80"</span><span class="s5">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>score: </span><span class="s7">4.9</span><span class="s1">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>excerpt: </span><span class="s1">"結束一天疲憊的工作，回家開啟沉香精油與水氧機，細緻霧氣伴隨溫暖黃光，瞬間把房間變成高級SPA會館！"</span><span class="s5">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>pros: [</span><span class="s1">"極靜音設計 (小於25dB)"</span><span class="s5">, </span><span class="s1">"具備定時與七彩暖光切換"</span><span class="s5">, </span><span class="s1">"自動斷電保護超安心"</span><span class="s5">],</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>cons: [</span><span class="s8">"水箱容量較小，大坪數需頻繁加水"</span><span class="s1">],</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>shopUrl: </span><span class="s8">"https://momo.com.tw"</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>id: </span><span class="s7">102</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>title: </span><span class="s8">"辦公室救星！人體工學記憶棉護腰靠墊"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>tag: </span><span class="s8">"數位周邊 / 辦公"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>date: </span><span class="s8">"2026-03-15"</span><span class="s1">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>image: </span><span class="s1">"https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&amp;fit=crop&amp;w=800&amp;q=80"</span><span class="s5">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>description: </span><span class="s1">"長期坐在電腦前久坐族的福音，支撐力極佳，實測連續使用兩週久坐腰酸問題明顯改善！"</span><span class="s5">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>score: </span><span class="s7">4.8</span><span class="s1">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>excerpt: </span><span class="s1">"這款靠墊採用高密度慢回彈記憶棉，完美貼合腰部曲線，搭配透氣天絲布套，夏天坐一整天也不覺得悶熱！"</span><span class="s5">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>pros: [</span><span class="s1">"雙向弧度支撐，減輕腰椎壓力"</span><span class="s5">, </span><span class="s1">"布套可拆洗，衛生便利"</span><span class="s5">, </span><span class="s1">"附防滑綁帶固能在椅背"</span><span class="s5">],</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>cons: [</span><span class="s8">"體積稍大，不適合太小的折疊椅"</span><span class="s1">],</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>shopUrl: </span><span class="s8">"https://pchome.com.tw"</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>id: </span><span class="s7">103</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>title: </span><span class="s8">"復古質感手沖溫控電熱水壺 (法式奶油白)"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>tag: </span><span class="s8">"廚房家電"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>date: </span><span class="s8">"2026-03-08"</span><span class="s1">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>image: </span><span class="s1">"https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&amp;fit=crop&amp;w=800&amp;q=80"</span><span class="s5">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>score: </span><span class="s7">5.0</span><span class="s1">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>excerpt: </span><span class="s1">"擺在檯面上就是極致的藝術品！天鵝頸細口設計精準控制出水量，精準1℃溫控讓你隨時沖泡出極品手沖咖啡與好茶。"</span><span class="s5">,</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>pros: [</span><span class="s1">"英製Strix溫控器，快速沸騰"</span><span class="s5">, </span><span class="s1">"LED實時顯示水溫"</span><span class="s5">, </span><span class="s1">"防燙人體工學把手"</span><span class="s5">],</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>cons: [</span><span class="s8">"價格稍高，但質感完全物超所值"</span><span class="s1">],</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>shopUrl: </span><span class="s8">"https://momo.com.tw"</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>];</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">// --- 3. DOM 渲染邏輯 ---</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">// 渲染星級評分 UI 輔助函式</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s6">function</span><span class="s1"> renderStars(rating) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">const</span><span class="s1"> fullStars = </span><span class="s12">Math</span><span class="s1">.floor(rating);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">const</span><span class="s1"> hasHalf = rating % </span><span class="s7">1</span><span class="s1"> &gt;= </span><span class="s7">0.5</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">let</span><span class="s1"> starsHtml = </span><span class="s8">''</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">for</span><span class="s1"> (</span><span class="s6">let</span><span class="s1"> i = </span><span class="s7">0</span><span class="s1">; i &lt; fullStars; i++) {</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>starsHtml += </span><span class="s1">`&lt;i class="fa-solid fa-star text-amber-400"&gt;&lt;/i&gt;`</span><span class="s5">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">if</span><span class="s1"> (hasHalf) {</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">                </span>starsHtml += </span><span class="s1">`&lt;i class="fa-solid fa-star-half-stroke text-amber-400"&gt;&lt;/i&gt;`</span><span class="s5">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p8"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s6">return</span><span class="s5"> </span><span class="s1">`&lt;div class="flex items-center gap-1 text-xs"&gt;</span><span class="s5">${starsHtml}</span><span class="s1"> &lt;span class="text-warm-600 font-semibold ml-1"&gt;</span><span class="s5">${rating}</span><span class="s1">&lt;/span&gt;&lt;/div&gt;`</span><span class="s5">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">// 渲染零食列表</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s6">function</span><span class="s1"> renderSnacks(items) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">const</span><span class="s1"> container = document.getElementById(</span><span class="s8">'snack-list'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">const</span><span class="s1"> noMsg = document.getElementById(</span><span class="s8">'no-snack-msg'</span><span class="s1">);</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">if</span><span class="s1"> (items.length === </span><span class="s7">0</span><span class="s1">) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>container.innerHTML = </span><span class="s8">''</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>noMsg.classList.remove(</span><span class="s8">'hidden'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s6">return</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>noMsg.classList.add(</span><span class="s8">'hidden'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>container.innerHTML = items.map(snack =&gt; </span><span class="s8">`</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white rounded-2xl overflow-hidden border border-warm-200/80 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between group"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;!-- 圖片區 --&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="relative overflow-hidden aspect-[4/3]"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;img src="</span><span class="s5">${snack.image}</span><span class="s1">" alt="</span><span class="s5">${snack.name}</span><span class="s1">" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" onerror="this.src='https://placehold.co/600x400/EBE3D5/736043?text=Tasty+Snack'"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span class="absolute top-3 left-3 bg-warm-800/80 backdrop-blur-md text-white text-xs px-2.5 py-1 rounded-full font-medium"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s5">${snack.categoryName}</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/span&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span class="absolute top-3 right-3 bg-red-500 text-white text-xs font-bold px-2 py-0.5 rounded-md shadow"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s5">${snack.discount}</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/span&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
+<p class="p9"><span class="s1"><span class="Apple-converted-space">                        </span></span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;!-- 內文區 --&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="p-5"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div class="flex justify-between items-start mb-2"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;h3 class="font-bold text-lg text-warm-800 group-hover:text-warm-600 transition-colors line-clamp-1"&gt;</span><span class="s5">${snack.name}</span><span class="s1">&lt;/h3&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div class="mb-3"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s5">${renderStars(snack.rating)}</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;p class="text-warm-600 text-xs sm:text-sm line-clamp-2 leading-relaxed mb-4"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s5">${snack.description}</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/p&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;!-- 底部價格與購買 --&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="px-5 pb-5 pt-0 flex items-center justify-between border-t border-warm-100 mt-auto pt-4"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span class="text-xs text-warm-500 block"&gt;推薦優惠價&lt;/span&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span class="text-lg font-bold text-warm-800"&gt;</span><span class="s5">${snack.price}</span><span class="s1">&lt;/span&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;a href="</span><span class="s5">${snack.shopUrl}</span><span class="s1">" target="_blank" rel="noopener noreferrer"<span class="Apple-converted-space"> </span></span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                           </span>class="px-4 py-2 bg-warm-600 hover:bg-warm-700 text-white text-sm font-medium rounded-xl shadow-sm hover:shadow transition-all flex items-center gap-1.5 active:scale-95"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span&gt;前往購買&lt;/span&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;i class="fa-solid fa-arrow-up-right-from-square text-xs"&gt;&lt;/i&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/a&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">            </span>`</span><span class="s5">).join(</span><span class="s1">''</span><span class="s5">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">// 渲染好物開箱列表</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s6">function</span><span class="s1"> renderReviews(reviews) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">const</span><span class="s1"> container = document.getElementById(</span><span class="s8">'review-list'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>container.innerHTML = reviews.map(item =&gt; </span><span class="s8">`</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                </span>&lt;article class="bg-white rounded-3xl overflow-hidden border border-warm-200/80 shadow-sm hover:shadow-md transition-all duration-300 grid grid-cols-1 lg:grid-cols-12"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;!-- 封面圖 --&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="lg:col-span-5 relative min-h-[240px] lg:min-h-full overflow-hidden"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;img src="</span><span class="s5">${item.image}</span><span class="s1">" alt="</span><span class="s5">${item.title}</span><span class="s1">" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" onerror="this.src='https://placehold.co/800x600/EBE3D5/736043?text=Product+Review'"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;span class="absolute top-4 left-4 bg-warm-600 text-white text-xs px-3 py-1 rounded-full font-medium shadow-sm"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s5">${item.tag}</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/span&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;!-- 開箱內文細節 --&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="lg:col-span-7 p-6 sm:p-8 flex flex-col justify-between"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div class="flex items-center justify-between text-xs text-warm-500 mb-2"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;span&gt;&lt;i class="fa-regular fa-calendar me-1"&gt;&lt;/i&gt; </span><span class="s5">${item.date}</span><span class="s1">&lt;/span&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s5">${renderStars(item.score)}</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</span></p>
+<p class="p9"><span class="s1"><span class="Apple-converted-space">                            </span></span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;h3 class="text-xl sm:text-2xl font-bold text-warm-800 mb-3 hover:text-warm-600 transition-colors"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s5">${item.title}</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/h3&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;p class="text-warm-600 text-sm leading-relaxed mb-6"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                </span></span><span class="s5">${item.excerpt}</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/p&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;!-- 優缺點標籤 --&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6 bg-warm-50 p-4 rounded-2xl border border-warm-200/50"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;div&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;span class="text-xs font-bold text-emerald-700 flex items-center gap-1 mb-1.5"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;i class="fa-solid fa-circle-check"&gt;&lt;/i&gt; 亮點優點</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/span&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;ul class="text-xs text-warm-700 space-y-1"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                        </span></span><span class="s5">${item.pros.map(p =&gt; </span><span class="s1">`&lt;li class="flex items-start gap-1"&gt;&lt;span&gt;•&lt;/span&gt; &lt;span&gt;</span><span class="s5">${p}</span><span class="s1">&lt;/span&gt;&lt;/li&gt;`</span><span class="s5">).join(</span><span class="s1">''</span><span class="s5">)}</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/ul&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;div&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;span class="text-xs font-bold text-amber-700 flex items-center gap-1 mb-1.5"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;i class="fa-solid fa-circle-info"&gt;&lt;/i&gt; 注意事項</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/span&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;ul class="text-xs text-warm-700 space-y-1"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                        </span></span><span class="s5">${item.cons.map(c =&gt; </span><span class="s1">`&lt;li class="flex items-start gap-1"&gt;&lt;span&gt;•&lt;/span&gt; &lt;span&gt;</span><span class="s5">${c}</span><span class="s1">&lt;/span&gt;&lt;/li&gt;`</span><span class="s5">).join(</span><span class="s1">''</span><span class="s5">)}</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/ul&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;!-- 底部導流按鈕 --&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="flex items-center justify-between pt-4 border-t border-warm-100"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span class="text-xs text-warm-500 font-medium"&gt;實測綜合評分：&lt;strong class="text-warm-800 text-sm"&gt;</span><span class="s5">${item.score}</span><span class="s1"> / 5.0&lt;/strong&gt;&lt;/span&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;a href="</span><span class="s5">${item.shopUrl}</span><span class="s1">" target="_blank" rel="noopener noreferrer"<span class="Apple-converted-space"> </span></span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                               </span>class="px-5 py-2.5 bg-warm-800 hover:bg-warm-700 text-white text-sm font-medium rounded-xl shadow-md transition-all flex items-center gap-2 active:scale-95"&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;i class="fa-solid fa-bag-shopping"&gt;&lt;/i&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;span&gt;直接入手 / 查看賣場&lt;/span&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/a&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/article&gt;</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">            </span>`</span><span class="s5">).join(</span><span class="s1">''</span><span class="s5">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">// --- 4. 篩選與搜尋互動 ---</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s6">let</span><span class="s1"> currentCategory = </span><span class="s8">'all'</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s6">let</span><span class="s1"> searchQuery = </span><span class="s8">''</span><span class="s1">;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s6">function</span><span class="s1"> filterSnacks() {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">let</span><span class="s1"> filtered = snacksData;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">// 分類篩選</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">if</span><span class="s1"> (currentCategory !== </span><span class="s8">'all'</span><span class="s1">) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>filtered = filtered.filter(item =&gt; item.category === currentCategory);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">// 關鍵字搜尋</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">if</span><span class="s1"> (searchQuery.trim() !== </span><span class="s8">''</span><span class="s1">) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s6">const</span><span class="s1"> query = searchQuery.toLowerCase();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>filtered = filtered.filter(item =&gt;<span class="Apple-converted-space"> </span></span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>item.name.toLowerCase().includes(query) ||<span class="Apple-converted-space"> </span></span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>item.description.toLowerCase().includes(query)</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>renderSnacks(filtered);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">// 初始化與事件監聽</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>document.addEventListener(</span><span class="s8">'DOMContentLoaded'</span><span class="s1">, () =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">// 初始渲染</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>renderSnacks(snacksData);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>renderReviews(reviewsData);</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">// 分類按鈕點擊</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">const</span><span class="s1"> catButtons = document.querySelectorAll(</span><span class="s8">'#snack-categories .cat-btn'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>catButtons.forEach(btn =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>btn.addEventListener(</span><span class="s8">'click'</span><span class="s1">, (e) =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>catButtons.forEach(b =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>b.classList.remove(</span><span class="s8">'bg-warm-600'</span><span class="s1">, </span><span class="s8">'text-white'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>b.classList.add(</span><span class="s8">'bg-white'</span><span class="s1">, </span><span class="s8">'text-warm-700'</span><span class="s1">, </span><span class="s8">'hover:bg-warm-100'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>});</span></p>
+<p class="p7"><span class="s1"><span class="Apple-converted-space">                    </span></span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>e.currentTarget.classList.remove(</span><span class="s8">'bg-white'</span><span class="s1">, </span><span class="s8">'text-warm-700'</span><span class="s1">, </span><span class="s8">'hover:bg-warm-100'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>e.currentTarget.classList.add(</span><span class="s8">'bg-warm-600'</span><span class="s1">, </span><span class="s8">'text-white'</span><span class="s1">);</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>currentCategory = e.currentTarget.getAttribute(</span><span class="s8">'data-cat'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>filterSnacks();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>});</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>});</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">// 搜尋框輸入監聽</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">const</span><span class="s1"> searchInput = document.getElementById(</span><span class="s8">'snack-search'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>searchInput.addEventListener(</span><span class="s8">'input'</span><span class="s1">, (e) =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>searchQuery = e.target.value;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>filterSnacks();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>});</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">// 手機版選單 Toggle</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">const</span><span class="s1"> mobileMenuBtn = document.getElementById(</span><span class="s8">'mobile-menu-btn'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">const</span><span class="s1"> mobileMenu = document.getElementById(</span><span class="s8">'mobile-menu'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">const</span><span class="s1"> mobileNavLinks = document.querySelectorAll(</span><span class="s8">'.mobile-nav-link'</span><span class="s1">);</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>mobileMenuBtn.addEventListener(</span><span class="s8">'click'</span><span class="s1">, () =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>mobileMenu.classList.toggle(</span><span class="s8">'hidden'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>});</span></p>
+</body>
+</html>
